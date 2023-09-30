@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #111;
+  overflow: hidden;
+}
+
+#app {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  left: 0;
+  top: 0;
+  right: 0;
+  pointer-events: none;
+}
+h1 {
+  font-weight: 100;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 5px;
+  margin-top: 2rem;
+}
